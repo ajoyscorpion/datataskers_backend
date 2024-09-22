@@ -61,9 +61,6 @@ exports.sendMessage = async(req,res) => {
         const filePath = path.join(__dirname,'../models/message.json')
         let messages = []
 
-        console.log(messages);
-        console.log("Bla");
-
         if (fs.existsSync(filePath)){
             const fileData = fs.readFileSync(filePath, 'utf-8');
             // If file is not empty, parse the JSON
@@ -77,11 +74,7 @@ exports.sendMessage = async(req,res) => {
             }
         }
 
-        console.log("Na");
-
         messages.push(messageData)
-
-        console.log("NaNa");
 
         fs.writeFileSync(filePath,JSON.stringify(messages,null,2))
         console.log("Message data: ", messageData);
