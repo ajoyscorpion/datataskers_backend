@@ -1,0 +1,20 @@
+[
+  {
+    "contact": "John Doe",
+    "phone": "+918113000923",
+    "otp": 812272,
+    "timestamp": "2024-09-21T17:02:18.812Z"
+  },
+  {
+    "contact": "John Doe",
+    "phone": "+918113000923",
+    "otp": 327531,
+    "timestamp": "2024-09-21T17:02:43.668Z"
+  },
+  {
+    "contact": "James Garcia",
+    "phone": "+918113000923",
+    "otp": 286919,
+    "timestamp": "2024-09-21T17:44:11.566Z"
+  }
+]
