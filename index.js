@@ -9,7 +9,7 @@ server.use(cors())
 server.use(express.json())
 server.use(router)
 
-const PORT = process.event.PORT || 4000
+const PORT = process.env.PORT || 4000
 
 server.listen(PORT,()=>{
     console.log(`Server started at : ${PORT}`);
